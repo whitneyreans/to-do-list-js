@@ -1,0 +1,82 @@
+.container {
+  background-color: rgba(219, 255, 250, 0.75);
+  width: 45%;
+  height: 40%;
+  border-radius: 25px;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 6%;
+
+  padding-top: 6px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.task:hover {
+  cursor: pointer;
+  color: #ffffcc;
+  text-decoration: underline;
+}
+
+
+body {
+  background-image: url("http://1.bp.blogspot.com/-nqjwUF7p76U/Tv7QQ86ny7I/AAAAAAAAAYE/9SQWddqVz_c/s1600/bridge+3+d.jpg");
+  background-size: cover;
+}
+
+.title {
+  font-family: 'Syncopate', sans-serif;
+}
+
+.row {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.btn {
+  display:       inline-block;
+  padding:       8px 20px;
+  background:    #05787b url('http://dabuttonfactory.com/button.png?w=1&h=35&bgt=gradient&bgc=c8f2f2&ebgc=05787b') repeat-x;
+  background:    -moz-linear-gradient(#c8f2f2, #05787b);
+  background:    -o-linear-gradient(#c8f2f2, #05787b);
+  background:    -webkit-linear-gradient(#c8f2f2, #05787b);
+  background:    linear-gradient(#c8f2f2, #05787b);
+  border-radius: 5px;
+  color:         #fff;
+  font:          normal 700 17px/1 "Lobster Two", cursive;
+  text-align:    center;
+  text-shadow:   1px 1px 0 #000;
+}
+
+#listies {
+  display: inline-block;
+}
+
+.list1 {
+  background-color: rgba(219, 255, 250, 0.75);
+  border-radius: 20px;
+  height: 400px;
+  width: 320px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  float: left;
+  margin-left: 450px;
+
+
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+}
+
+.list2 {
+  background-color: rgba(219, 255, 250, 0.75);
+  border-radius: 20px;
+  height: 400px;
+  width: 320px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  float: right;
+  margin-left: 100px;
+
+
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+}
